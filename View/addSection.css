@@ -1,0 +1,100 @@
+<style>
+	*{
+		padding:0;
+		margin:0;
+	}
+	input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    }
+
+    /* Set a style for all buttons */
+    button {
+        background-color: #428bca; 
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+    
+    
+    #bg {
+      position: fixed; 
+      top: -50%; 
+      left: -50%; 
+      width: 200%; 
+      height: 200%;
+    }
+    #bg img {
+      position: absolute; 
+      top: 0; 
+      left: 0; 
+      right: 0; 
+      bottom: 0; 
+      margin: auto; 
+      min-width: 50%;
+      min-height: 50%;
+    }
+    
+    form{
+       position:fixed;
+       top:0%;
+       left:35%;
+       width:250px;
+    }
+
+    /* Extra styles for the cancel button */
+    
+    /* Float cancel and signup buttons and add an equal width */
+    .signupbtn{
+        float: left;
+        width: 100%;
+        font-family: fantasy;
+        font-size: 26px;
+        background-color:darkgreen;
+    }
+     .continuebtn{
+        float: left;
+        width: 50%;
+        font-family: fantasy;
+        font-size: 26px;
+    }
+	.cancelbtn{
+		float:right;
+		width: 50%;
+		font-size:22;
+	}
+    /* Add padding to container elements */
+    .container {
+        padding: 36px;
+        margin: 10px;
+        background-color:azure;
+        font-family:monospace;
+        color: black;
+        font-size: 20px;
+    }
+
+    /* Clear floats */
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .fake-input { position: relative; width:240px; }
+    .fake-input input { border:none: background:#fff; display:block; width: 167%; box-sizing: border-box }
+    .fake-input img { position: absolute; top: 30%; left: 155% }
+
+    /* Change styles for cancel button and signup button on extra small screens */
+    @media screen and (max-width: 300px) {
+        .continuebtn, .cancelbtn {
+            width: 100%;
+        }
+    }
+</style>
